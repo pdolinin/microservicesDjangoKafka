@@ -50,8 +50,8 @@ class UserCreatedListener(threading.Thread):
                     		email = value
                     		print(value)
                     		server.starttls()
-                    		server.login('paveldolinin03@gmail.com', 'fbsm iapr oeab jkks')
-                    		server.sendmail('paveldolinin03@gmail.com', email, 'Hello! Thank you for registration!')
+                    		server.login('yourEmail', 'YourPassword')
+                    		server.sendmail('yourEmail', email, 'Hello! Thank you for registration!')
                     if (value):
                     	print(value)
                     print(message)
